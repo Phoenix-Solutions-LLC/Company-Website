@@ -1,0 +1,10 @@
+[
+    {
+        "name": "FitMe",
+        "description": "An exercise plan generator for a seamless, ad-free, simple workout generating experience.",
+        "date": "06/10/2024",
+        "platforms": {
+            "Web": "https://phoenixsolve.com/webapps/workoutgenerator/landing/"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.png" />
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phoenix Solutions</title>
+  </head>
+  <body>
+    <canvas id="gl-rendering"></canvas>
+
+    <ul id="header">
+        <li><img src="../logo.png" alt="PHOENIX SOLUTIONS" height="110"></li>
+        <li><ul id="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/team/">Team</a></li>
+            <li id="selected"><a href="/contact/">Inquiry</a></li>
+        </ul></li>
+    </ul>
+
+    <div id="information">
+        <a href="mailto:tPhoenix@mit.edu" class="icon-text">
+            <span class="material-icons">email</span>
+            <p>tPhoenix@mit.edu</p>
+        </a>
+        <a href="https://x.com/PhoenixSolve" target="_blank" class="icon-text">
+            <span style="font-weight: bold;">X (Twitter)</span>
+            <p>@PhoenixSolve</p>
+        </a>
+        <a href="https://github.com/Phoenix-Solutions-LLC" target="_blank" class="icon-text">
+            <span style="font-weight: bold;">GitHub</span>
+            <p>Phoenix-Solutions-LLC</p>
+        </a>
+    </div>
+
+    <div class="footer" style="border: 0px;">
+        <div id="project-carousel"></div>
+        <p><a href="https://phoenixsolve.com/">Phoenix Solutions, LLC</a>. All rights reserved.</p>
+    </div>
+    <script type="module" src="/src/contact.ts"></script>
+  </body>
+</html>
