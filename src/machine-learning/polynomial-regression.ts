@@ -26,7 +26,7 @@ export class PolynomialRegression {
 
     private transformFeatures(X: number[][]): number[][] {
         return X.map(row =>
-            row.flatMap((feature, i) =>
+            row.flatMap((feature) =>
                 Array.from({ length: this.degree }, (_, d) => Math.pow(feature, d + 1))
             )
         )

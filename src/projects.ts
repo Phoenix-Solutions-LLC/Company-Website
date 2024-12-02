@@ -34,6 +34,7 @@ async function load() {
         details.appendChild(lastUpdated)
         if (project.description) {
             const description = document.createElement('p')
+            description.style.maxWidth = '500px'
             description.innerText = project.description
             details.appendChild(description)
         }
