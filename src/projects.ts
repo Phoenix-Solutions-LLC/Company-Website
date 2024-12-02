@@ -8,7 +8,7 @@ async function load() {
 
     for (let i = 0; i < json.length; i++) {
         const project = json[i]
-        const colors = await getImageColors('../' + project.name.toLowerCase() + '.png', 10)
+        const colors = await getImageColors('../' + project.name.toLowerCase().replace(" ", "_") + '.png', 10)
         colors.sort((a, b) => b[3]-a[3])
 
         const proj = document.createElement('div')
@@ -16,7 +16,7 @@ async function load() {
     
         const res = document.createElement('div')
         const logo = document.createElement('img')
-        logo.src = '../' + project.name.toLowerCase() + '.png'
+        logo.src = '../' + project.name.toLowerCase().replace(" ", "_") + '.png'
         logo.style.borderRadius = '35px'
         logo.style.width = '200px'
         res.appendChild(logo)

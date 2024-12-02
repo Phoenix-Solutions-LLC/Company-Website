@@ -46,3 +46,7 @@ a  {
     text-decoration: none;
     color: #5c0c05;
 }
+
+#gl-rendering {
+    opacity: 0.2;
+}

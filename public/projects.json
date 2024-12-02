@@ -1,6 +1,14 @@
 [
     {
-        "name": "FitMe",
+        "name": "Vitalitas",
+        "description": "Vitalitas is a health app that tracks your diagnosis symptoms, creates exercise plans, and provides a medical ChatBot to answer your medical questions at home.",
+        "date": "06/19/2024",
+        "platforms": {
+            "Android": "https://play.google.com/store/apps/details?id=com.phoenixsolutions.vitalitas&hl=en_US"
+        }
+    },
+    {
+        "name": "Workout Generator",
         "description": "An exercise plan generator for a seamless, ad-free, simple workout generating experience.",
         "date": "06/10/2024",
         "platforms": {
